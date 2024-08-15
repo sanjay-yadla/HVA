@@ -1,0 +1,34 @@
+nav ul{
+    list-style: none;
+}
+nav {
+    background-color: bisque;
+    padding: 1%;
+    text-align: center;
+    font-size: x-large;
+}
+nav  li {
+    display: inline-block;
+    margin-right: 10%;
+}
+nav a{
+    color: rgb(233, 0, 0);
+    text-decoration: dotted;
+}
+#sanju {
+    color: black;
+}
+nav li ::before{
+    content: ':)';
+    color: black;
+    margin: 5%;
+}
+.call{
+    text-decoration: none;
+    font-size: small;
+    color: blueviolet;
+}
+nav li + li {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

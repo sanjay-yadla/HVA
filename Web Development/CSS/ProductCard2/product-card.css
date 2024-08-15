@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 255px;
+    height: auto;
+    border: #000;
+}
+.product-card {
+    border: 2px solid#333;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    box-sizing: border-box;
+    height: auto;
+    background-color: lightgray;
+}
+
+.product-card p{
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.product-card h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+span{
+    font-size: 20px;
+    color: #000;
+}
+button{
+    padding: 8px;
+    border-color: #000;
+    background-color:#ffff;
+}
+button:hover{
+    background-color: #000;
+    color: #ffff;
+    cursor: pointer;
+}
